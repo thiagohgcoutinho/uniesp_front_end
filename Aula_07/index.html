@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 07 - Formulários</title>
+</head>
+<body>
+    
+    <form autocomplete="on" target="_blank">
+        Nome: <input type="text" name="nome" id="nome" placeholder="João da Silva"><br><br>
+        Data de Nascimento: <input type="date" id="data"><br><br>
+        E-mail: <input type="email" id="email"><br><br>
+        Pesquisa: <input type="search" id="pesquisa"><br><br>
+        URL: <input type="url"><br><br>
+        Senha: <input type="password"><br><br>
+        Número: <input type="number"><br><br>
+    </form>
+    <form>
+        <input type="radio" name="videogame" checked> Atari <br>
+        <input type="radio" name="super_nintendo"> Nintendo Switch <br>
+        <input type="radio" name="videogame"> Playstation 5 <br><br>
+    </form>
+    <form>
+        <input type="checkbox" name="videogame1" value="atari"> Atari <br>
+        <input type="checkbox" name="videogame1" value="nintendo"> Nintendo Switch <br>
+        <input type="checkbox" name="videogame1" value="play"> Playstation 5 <br><br>
+        <input type="submit"><br><br>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Opções</legend>
+            <select name="select" id="select">
+                <option value="html5">HTML 5</option>
+                <option value="java_script">Java Script</option>
+                <option value="php">PHP</option><br>
+            </select>
+        </fieldset>
+    </form>
+    <form name="display" id="display">
+        <br>
+        <details>
+            <summary value="original">Original</summary>
+            <p value="traducao"><button>Tradução</button></p>
+        </details>
+    </form>
+</body>
+</html>
