@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Prova do 6º ano</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form>
+        <div>
+            <h1>
+                6º Série A - Prova de Língua Estrangeira
+            </h1>
+        </div>
+
+        <div>
+            <p>Responda todas as questões, utilizando caneta esferográfica azul ou preta. Respostas marcadas em lápis grafite
+                não serão corrigidas.
+            </p>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Informações do Aluno</legend>
+                <form>
+                    <span>Nome</span><br>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" size="30"><br><br>
+                    <span>Grupo</span><br>
+                    <input type="text" name="grupo" id="grupo" placeholder="Nº de pessoas no grupo" size="30"><br><br>
+                    <span>E-mail</span><br>
+                    <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" size="30"><br><br>
+                    <span>Data de Nascimento</span><br>
+                    <input type="date" name="data" id="data"><br><br>
+                    <span>Digite uma senha para acessar os dados posteriormente</span><br>
+                    <input type="password" name="senha" id="senha" size="30" placeholder="Digite uma senha">
+                </form>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Inglês</legend>
+                <br>
+                <img src="ingles.jpeg" alt="ingles"><br>
+                <p>1. Traduza para o inglês as seguintes frases:</p><br>
+                <span>a. Tenho estudado bastante ultimamente</span>
+                <input type="text" name="casa" id="casa" size="40"><br><br>
+                <span>b. Serei um excelente programador</span>
+                <input type="text" name="bicicleta" id="bicicleta" size="40"><br><br>
+                <span>c. Quando eu abrir minha empresa de tecnologia serei muito rico</span>
+                <input type="text" name="quarto" id="quarto" size="40"><br><br>
+                <span>* Essa tarefa foi difícil? </span><br>
+                <label for="dificuldade"> Fácil</label>
+                <input type="range" name="dificuldade" id="dificuldade">
+                <label for="dificuldade">Difícil</label>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Espanhol</legend>
+                <br>
+                <img src="https://d5y9g7a5.rocketcdn.me/wp-content/uploads/2019/09/espanha-top-10-cidades-politica-religiao-geografia-e-curiosidades-15-1024x683.jpg.webp" alt="espanhol"><br>
+                <br>
+                <span>1. A palavra "rechazan" se traduz por:</span><br><br>
+                <input type="radio" name="rechazan" value="recriminam">recriminam<br>
+                <input type="radio" name="rechazan" value="expulsam">expulsam<br>
+                <input type="radio" name="rechazan" value="eliminam">eliminam<br>
+                <input type="radio" name="rechazan" value="rejeitam">rejeitam<br>
+                <input type="radio" name="rechazan" value="reprimem">reprimem<br><br>
+                <span>2. A palavra juguete corresponde, em português, a:</span><br><br>
+                <input type="checkbox" name="juguete" value="joguete">joguete<br>
+                <input type="checkbox" name="juguete" value="brinquedo">brinquedo<br>
+                <input type="checkbox" name="juguete" value="jogo">jogo<br>
+                <input type="checkbox" name="juguete" value="juízo">juízo<br>
+                <input type="checkbox" name="juguete" value="passatempo">passatempo<br>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Dê uma nota para seu professor</legend>
+                <br>
+                <span>Seu professor ensina bem?</span><br>
+                <label for="nota">0</label>
+                <input type="range">
+                <label for="nota">10</label>
+                <br><br>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Opiniões</legend>
+                <br>
+                <span>Digite a sua opinião sobre a disciplina</span><br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="8"></textarea>
+            </fieldset>
+        </div>
+
+        <div><br>
+            <input type="submit" value="Gravar Respostas">
+        </div>
+    </form>
+</body>
+</html>
