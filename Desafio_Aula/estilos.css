@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.bottom-half {
+    display: grid;
+    grid-template-columns: repeat(2, );
+    column-gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.icon-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.top-half {
+    background-image: url(bg-pattern-card.svg);
+
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 30%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 3px;
+    text-align: center;
+    align-items: center;
+}
+
+
