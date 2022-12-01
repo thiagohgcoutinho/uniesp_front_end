@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('font/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+
+    margin: 0%;
+    background-color: white;
+    width: 100%;
+    font-family:'Inter', sans-serif;;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 5px #43A2E7;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 50px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(122, 122, 122);
+}
+
+.menu ul li {
+
+    list-style: none;
+    text-decoration: none;
+    font-size: 17pt;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: #43A2E7;
+}
+
+.menu a:hover{
+
+    color: #2c5b7c;
+}
+
+
+
+.logo h1 {
+
+    color: #43A2E7;
+    font-weight: bold;
+
+
+}
+
+.menu ul {
+
+    display: flex;
+    margin-right: 50px;
+
+
+}
+
+.titulo {
+
+    margin-left: 20px;
+}
+
+.baner {
+
+    width: 100%;
+    height: 300px;
+    background-image: url(/imagem/hospital-1\ \(4\)\ \(1\)\ \(1\).png);
+   
+}
+
+.grid-inicio {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+
+    margin: 50px;
+
+
+}
+
+.info-grid {
+
+    width: auto;
+    height: 250px;
+    background-color: #DCBDC7;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.video {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.principal {
+
+    background-color: #D5EAF9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.texto {
+
+    color: #43A2E7;
+    font-weight: bold;
+}
+
+.tetxto1{
+
+    font-weight: bold;
+}
+
+.DEA {
+
+    width: 70%;
+    height: 100%;
+    margin: 50px;
+    text-align: justify;
+    font-size: 1.15em;
+    background-color: #DCBDC7;
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+.passoapasso{
+
+    font-weight: bold;
+    list-style: none;
+}
+
+.parte2{
+
+    
+    padding: 20px;
+    margin: 20px;
+}
+
+.final{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    color: #43a2e7;
+    font-weight: bold;
+    border-top: solid 5px #43A2E7;
+}
+
+.fotos{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.imag{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.passoapasso{
+
+    display: flex;
+    width: 100%;
+    
+}
+
+.imgii{
+
+    width:80px;
+    height: auto;
+}
+
+
